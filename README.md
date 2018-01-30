@@ -19,8 +19,8 @@ TEST.SH
 ### 1
 Please create pointless.sh, changing from printing your hostname with $HOSTNAME, to your $USER
 
-`[sunying@trgn510 assign3]$ ./pointless.sh
-
+`
+[sunying@trgn510 assign3]$ ./pointless.sh
 sunying
 5
 6
