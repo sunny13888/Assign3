@@ -37,7 +37,7 @@ The process id for this script is 22961`
 ### 3
 Please create processes.sh.  Modify it such that it prints the top 5 CPU consuming processes
 
-`[sunying@trgn510 assign3]$ ./processes.sh
+`[sunying@trgn510 bin]$ ./processes.sh
 PID PPID CMD %MEM %CPU 1344 1174 /usr/sbin/mysqld --basedir= 2.9 0.0 541 1 /usr/bin/python -Es /usr/sb 0.6 0.0 865 1 /usr/sbin/httpd -DFOREGROUN 0.3 0.0 5586 865 /usr/sbin/httpd -DFOREGROUN 0.3 0.0 5587 865 /usr/sbin/httpd -DFOREGROUN 0.3 0.0 25847 865 /usr/sbin/httpd -DFOREGROUN 0.3 0.0 5583 865 /usr/sbin/httpd -DFOREGROUN 0.3 0.0 5584 865 /usr/sbin/httpd -DFOREGROUN 0.3 0.0 5585 865 /usr/sbin/httpd -DFOREGROUN 0.3 0.0`
 
 ### 4
