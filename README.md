@@ -20,14 +20,19 @@ TEST.SH
 Please create pointless.sh, changing from printing your hostname with $HOSTNAME, to your $USER
 
 `[sunying@trgn510 assign3]$ ./pointless.sh
-
 sunying
 5
 6`
 
 ### 2
 Please create quotequotes.sh, please add 1 additional lines that prints the process id of the current script using a special variable in a sentence: "The process id for this script is **235**'
-*REPLACE WITH RESULTS*
+`[sunying@trgn510 assign3]$ ./quotequotes.sh
+trgn510.pmed.io
+VARIABLE
+I am on trgn510.pmed.io
+I am on $HOSTNAME
+I am on $HOSTNAME
+The process id for this script is 2412`
 
 ### 3
 Please create processes.sh.  Modify it such that it prints the top 5 CPU consuming processes
