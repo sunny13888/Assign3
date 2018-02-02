@@ -42,8 +42,9 @@ PID PPID CMD %MEM %CPU 1344 1174 /usr/sbin/mysqld --basedir= 2.9 0.0 541 1 /usr/
 
 ### 4
 Please create makeupper.sh.  Modify it to return lower case results, and change the name to makelower.sh
-
-*REPLACE WITH RESULTS for ps -ef | makeupper.sh*
+`[sunying@trgn510 bin]$ ps -ef | makelower.sh
+uid        pid  ppid  c stime tty          time cmd
+root         1     0  0 jan19 ?        00:02:42 /usr/lib/systemd/systemd --switched-root --system --deserialize 19`
 
 ### 5
 Referring to math.sh, create a script called add.sh that takes two inputs and adds them, **add.sh 5 3** would print 8
