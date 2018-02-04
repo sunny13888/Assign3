@@ -181,9 +181,9 @@ Create a program "count_by_to.sh", referring to count.sh.  The file should take 
 ### 9
 Please create whatgene.sh.  Please edit such that the function print_gene, prints upper case of the input.
 
-`[sunying@trgn510 bin]$ ./whatgene2.sh
-mygene PTEN
-mygene JUPITER`
+`[sunying@trgn510 bin]$ ./whatgene.sh
+MYGENE PTEN
+MYGENE JUPITER`
 
 ### 10
 Please create a bash shell called "genotype.sh" that takes a VCF as argument 1, and prints space delimited chromosome, position, reference, alternative, and genotype for all genotypes in VCF.
