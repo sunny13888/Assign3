@@ -187,6 +187,4 @@ MYGENE JUPITER`
 
 ### 10
 Please create a bash shell called "genotype.sh" that takes a VCF as argument 1, and prints space delimited chromosome, position, reference, alternative, and genotype for all genotypes in VCF.
-`#!/bin/bash
-grep -v "#" ~/projects/assign2/HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf | cut -d " " -f 10 | cut -d ":" -f 1 > temp_genotype
-grep -v "#" ~/projects/assign2/HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf | cut -d " " -f1,2,4,5 > temp paste temp temp_genotype > temp_output.txt cat temp_output.txt | tr " " " " > output.txt head output.txt`
+``
